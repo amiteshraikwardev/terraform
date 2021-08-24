@@ -65,7 +65,7 @@ yum install -y epel-release && yum install nc curl telnet ntp unzip wget vim vsf
 echo '# arago HIRO repository
 [hiro]
 name=arago HIRO CentOS 6 Repository
-baseurl=https://sam%40choiceworx.com:Ch0iceW0RX@repository.arago.de/hiro/releases/5.4.4/centos/6/
+baseurl=htt xyz #give url info here
 gpgcheck=0
 enabled=1' >> /etc/yum.repos.d/hiro.repo
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config && setenforce 0
